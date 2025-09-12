@@ -45,7 +45,7 @@ jobs:
          token: ${{ secrets.GITHUB_TOKEN }}
      
      - name: use node.js
-       uses: action/setup-node@v3
+       uses: actions/setup-node@v3
        with:
          node-vesion: '18.x'
      
